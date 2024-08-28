@@ -36,3 +36,117 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.todos-bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 20px;
+  
+}
+
+.container {
+  background-color: #afdce2;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: end;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left:20px ;
+  padding-right: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.create-task-heading,
+.todo-items-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton{
+  color: rgb(164, 227, 28);
+    background-color: #4030ed;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    
+    width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.button:hover {
+  background-color: #3a51a0;
+}
+
+ul.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.save-button {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}

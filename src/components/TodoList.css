@@ -1,0 +1,63 @@
+.todo-list-container {
+    background-color: #f9fbfe;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: darkgreen;
+}
+
+.create-task-heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border: 2px solid #e0e7ff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+    
+    
+}
+
+.button {
+    background-color: #4c63b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+    transition: background-color 0.3s ease;
+    
+}
+
+.button:hover {
+    background-color: #3c4da4;
+}
+
+.todo-items-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
